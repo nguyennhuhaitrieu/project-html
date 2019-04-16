@@ -1,0 +1,71 @@
+.box-lock {
+    width: 100%;
+    height: 100%;
+    background: url('./../img/background-lock.jpg') no-repeat;
+    background-size: cover;
+    padding: 160px 0;
+}
+
+.box-lock-inner {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    width: 100%;
+    margin: 0;
+}
+
+.box-lock-inner .lock-title {
+    font-size: 24px;
+    margin: 0;
+}
+
+.box-lock-inner .lock-title {
+    font-size: 24px;
+}
+
+.box-lock-inner .lock-sub-title {
+    font-size: 14px;
+    margin: 16px 0;
+}
+
+.box-lock-image {
+    position: relative;
+}
+
+.lock-image-inner {
+    position: relative;
+    background: rgba(82, 92, 200, .3);
+    z-index: 9;
+    border-radius: 50%;
+}
+
+.lock-image-content img {
+    padding: 10px;
+    display: block;
+}
+
+.box-lock-footer {
+    margin-top: 16px;
+    position: relative;
+    padding: 0 65px;
+}
+
+.box-lock-footer::before {
+    position: absolute;
+    content: '';
+    top: 8px;
+    left: 0;
+    width: 50px;
+    border-top: 1px solid #fff;
+}
+
+.box-lock-footer::after {
+    position: absolute;
+    content: '';
+    top: 8px;
+    right: 0;
+    width: 50px;
+    border-top: 1px solid #fff;
+}
